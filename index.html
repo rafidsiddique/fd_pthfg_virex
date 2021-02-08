@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Virex - Best mobile app for your storage management</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="resources/img/logo/favicon.png" type="image/x-icon">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@600;800&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="resources/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="resources/css/owl.theme.default.min.css">
+
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/reusable.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- START HEADER SECTION -->
+
+    <header id="home">
+
+        <!-- NAVIGATION -->
+
+        <div class="navbar">
+            <div class="container flex">
+
+                <a href="#home">
+                    <img src="resources/img/logo/logo.png" alt="Virex" class="logo">
+                </a>
+
+                
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a class="active-nav" href="#home">home</a></li>
+                        <li><a href="#features">features</a></li>
+                        <li><a href="#screenshots">screenshots</a></li>
+                        <li><a href="#steps">steps</a></li>
+                        <li><a href="#functions">functions</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+
+                <a href="#download-links" class="btn btn-navbar">download</a>
+
+                <!-- HAMBURGER MENU -->
+
+                <div class="mobile-menu">
+                    <span style="color: rgb(36, 36, 36);" onclick="openNav()">&#9776;</span>
+                    <div class="overlay" id="myNav">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">home</a>
+                            <a onclick="closeNav()" href="#features">features</a>
+                            <a onclick="closeNav()" href="#screenshots">screenshots</a>
+                            <a onclick="closeNav()" href="#steps">steps</a>
+                            <a onclick="closeNav()" href="#functions">functions</a>
+                            <a onclick="closeNav()" href="#contact">contact</a>
+                            <a onclick="closeNav()" href="#download-links">download</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            <hr>
+        </div>
+
+        
+
+        <!-- SHOWCASE -->
+
+        <section class="showcase">
+            <div class="container grid">
+
+                <div class="showcase-text">
+                    <h6 class="title showcase-title">Creative App Of 2020</h6>
+                    <h1>Best Mobile App For Your Storage Management</h1>
+                    <p class="showcase-details">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
+                    <a href="#download-links" class="btn btn-showcase btn-showcase-trial">Try Free Trial</a>
+                    <a href="#download-links" class="btn btn-showcase btn-showcase-download">Download</a>
+                </div>
+
+                <div class="showcase-image-03">
+                    <img src="resources/img/header-mobile-03.png" alt="Mobile-03">
+                </div>
+
+                <div class="showcase-image-02">
+                    <img src="resources/img/header-mobile-02.png" alt="Mobile-02">
+                </div>
+
+            </div>
+        </section>
+
+    </header>
+
+    <!-- END HEADER SECTION -->
+
+    <!-- START STATS SECTION -->
+
+    <section class="stats">
+        <div class="container flex flex-items">
+
+            <div class="stats-project flex">
+                <div class="icon-left">
+                    <img src="resources/img/icon/funfact-1.png" alt="project">
+                </div>
+                <div class="text-right">
+                    <h2><span class="counter">1200</span><span>+</span></h2>
+                    <p>Project Completed</p>
+                </div>
+            </div>
+
+            <div class="stats-working flex">
+                <div class="icon-left">
+                    <img src="resources/img/icon/funfact-2.png" alt="working">
+                </div>
+                <div class="text-right">
+                    <h2><span class="counter">15</span></h2>
+                    <p>Working In</p>
+                </div>
+            </div>
+
+            <div class="stats-awards flex">
+                <div class="icon-left">
+                    <img src="resources/img/icon/funfact-3.png" alt="awards">
+                </div>
+                <div class="text-right">
+                    <h2><span class="counter">120</span></h2>
+                    <p>Award Won</p>
+                </div>
+            </div>
+
+            <div class="stats-client flex">
+                <div class="icon-left">
+                    <img src="resources/img/icon/funfact-4.png" alt="client">
+                </div>
+                <div class="text-right">
+                    <h2><span class="counter">3200</span><span>+</span></h2>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END STATS SECTION -->
+
+    <!-- START STEPS SECTION -->
+
+    <section class="steps js--steps-section" id="steps">
+        <div class="container">
+
+            <div class="text-center">
+                <h6 class="title">Easy Steps</h6>
+                <h2 class="sub-title">Discover This App More Easy </h2>
+                <p class="details">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+            </div>
+
+            <div class="grid">
+
+                <div class="steps-image">
+                    <img src="resources/img/steps-mobile.png" alt="Steps-mobile">
+                </div>
+
+                <div class="steps-text">
+
+                    <div class="first-item flex">
+                        <div class="steps-icon card text-center">
+                            <img src="resources/img/icon/steps-download.png" alt="download">
+                            <h5 class="tone">Download free trial</h5>
+                            <h6 class="watermark one">1</h6>
+                        </div>
+                        <div class="s-text">
+                            <p>This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="second-item flex">
+                        <div class="s-text">
+                            <p>This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                        <div class="steps-icon card text-center">
+                            <img src="resources/img/icon/steps-user.png" alt="profile">
+                            <h5 class="ttwo">Make your profile</h5>
+                            <h6 class="watermark two">2</h6>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="third-item flex">
+                        <div class="steps-icon card text-center">
+                            <img src="resources/img/icon/steps-smile.png" alt="smile">
+                            <h5 class="tthree">Use your app</h5>
+                            <h6 class="watermark three">3</h6>
+                        </div>
+                        <div class="s-text">
+                            <p>This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- END STEPS SECTION -->
+
+    <!-- START FEATURES SECTION -->
+
+    <section class="features" id="features">
+        <div class="container">
+
+            <div class="text-center">
+                <h6 class="title">Our Features</h6>
+                <h2 class="sub-title">Top Features To Manage Storage</h2>
+                <p class="details">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+            </div>
+
+            <img src="resources/img/features-bg.png" alt="features-bg" class="features-bg">
+
+            <div class="grid features-items">
+
+                <div class="card text-center flex">
+                    <img src="resources/img/icon/features-cloud-upload.png" alt="upload">
+                    <h5>Automatic Backups</h5>
+                    <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin.</p>
+                </div>
+                <div class="card text-center flex">
+                    <img src="resources/img/icon/features-share.png" alt="share">
+                    <h5>Remote Access</h5>
+                    <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin.</p>
+                </div>
+                <div class="card text-center flex">
+                    <img src="resources/img/icon/features-share-2.png" alt="share-alt">
+                    <h5>File Sharing</h5>
+                    <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin.</p>
+                </div>
+                <div class="card text-center flex">
+                    <img src="resources/img/icon/features-lock.png" alt="security">
+                    <h5>File Security</h5>
+                    <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin.</p>
+                </div>
+                <div class="card text-center flex">
+                    <img src="resources/img/icon/features-import.png" alt="backup">
+                    <h5>File Backup</h5>
+                    <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin.</p>
+                </div>
+                <div class="card text-center flex">
+                    <img src="resources/img/icon/features-archive.png" alt="archive">
+                    <h5>File Archiving</h5>
+                    <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the easy tudin.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END FEATURES SECTION -->
+
+    <!-- START VIDEO SECTION -->
+    
+    <section class="video">
+
+        <video poster="resources/img/video-bg.png" id="myVideo" preload="auto">
+            <source src="resources/video/app-video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+        </video>
+
+        <div class="container">
+            <button id="myBtn" onclick="myFunction()"><img src="resources/img/icon/video-play-button.png"/></button>
+        </div>
+            
+    </section>
+
+    <!-- END VIDEO SECTION -->
+
+    <!-- START EXPERTISE SECTION -->
+    
+    <section class="expertise">
+        <div class="container">
+
+            <div class="grid expertise-items">
+
+                <div class="expertise-left-item">
+
+                    <div class="text-left">
+                        <h6 class="title">Expertise</h6>
+                        <h2>Speciality in Those Field, Get Faster Solution</h2>
+                        <p>This is of Lorem Ipsum. Proin lorem graida nibh vel.</p>
+                    </div>
+
+                    <div class="expertise-video">
+
+                        <video poster="resources/img/expertise-video-bg.png" id="myVideo-2" preload="auto">
+                            <source src="resources/video/app-video.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                        </video>
+                
+                        <div>
+                            <button id="myBtn-2" onclick="myFunction2()"><img src="resources/img/icon/expertise-video-play-button.png"/></button>
+                        </div>
+                            
+                    </div>
+
+                </div>
+
+                
+                <div class="text-left flex sync">
+                    <img src="resources/img/icon/expertise-sync-alt.png" alt="research">
+                    <h5>Research & Analysis</h5>
+                    <p class="expertise-right-text">This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                </div>
+                <div class="text-left flex layer">
+                    <img src="resources/img/icon/expertise-layer-group.png" alt="design">
+                    <h5>UI/UX Design & Research</h5>
+                    <p class="expertise-right-text">This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                </div>
+                <div class="text-left flex code">
+                    <img src="resources/img/icon/expertise-code.png" alt="code">
+                    <h5 class="text-code">Expert Code for App Development</h5>
+                    <p class="expertise-right-text">This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                </div>
+                <div class="text-left flex chart">
+                    <img src="resources/img/icon/expertise-chart-bar.png" alt="expert">
+                    <h5>Expert User Experience</h5>
+                    <p class="expertise-right-text">This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END EXPERTISE SECTION -->
+
+    <!-- START WHY-US SECTION -->
+
+    <section class="why-us" id="functions">
+        <div class="container grid">
+
+            <div class="why-us-left">
+
+                <h2>More Easy And More Powerful And Personal App Built For You</h2>
+
+                <div class="component flex">
+                    <div class="icon-left">
+                        <img src="resources/img/icon/why-us-layer.png" alt="component">
+                    </div>
+                    <div class="text-right">
+                        <h5>Expert User Experience Component</h5>
+                        <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                    </div>
+                </div>
+                <div class="design flex">
+                    <div class="icon-left">
+                        <img src="resources/img/icon/why-us-mobile.png" alt="mobile">
+                    </div>
+                    <div class="text-right">
+                        <h5>Clean User Interface Design</h5>
+                        <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                    </div>
+                </div>
+                <div class="system flex">
+                    <div class="icon-left">
+                        <img src="resources/img/icon/why-us-security.png" alt="security">
+                    </div>
+                    <div class="text-right">
+                        <h5>Highly Secuired System</h5>
+                        <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                    </div>
+                </div>
+                <div class="need flex">
+                    <div class="icon-left">
+                        <img src="resources/img/icon/why-us-hdd.png" alt="hdd">
+                    </div>
+                    <div class="text-right">
+                        <h5>Unlimited Storage As Need</h5>
+                        <p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="why-us-right">
+                <img src="resources/img/why-us-mobile.png" alt="why-us-mobile">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END WHY-US SECTION -->
+
+    <!-- START SOLUTIONS SECTION -->
+
+    <section class="solutions">
+        <div class="container grid">
+
+            <div class="solutions-left">
+                <img src="resources/img/solutions-bg.png" alt="solutions-bg" class="solutions-bg">
+                <img src="resources/img/solutions-mb.png" alt="solutions-mb" class="solutions-mb">
+            </div>
+
+            <h2 class="solutions-title">Perfect Solution For Your ios & Android Device</h2>
+
+            <div class="text-left flex update">
+                <img src="resources/img/icon/solutions-sync-alt.png" alt="update">
+                <h5 class="text-left">Get Regular Update</h5>
+                <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+            </div>
+
+            <div class="text-left flex download">
+                <img src="resources/img/icon/solutions-download.png" alt="download">
+                <h5>Free Download</h5>
+                <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+            </div>
+
+            <div class="text-left flex share">
+                <img src="resources/img/icon/solutions-share-alt.png" alt="share">
+                <h5>Shareable Access</h5>
+                <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+            </div>
+
+            <div class="text-left flex storage">
+                <img src="resources/img/icon/solutions-boxes.png" alt="storage">
+                <h5>Customise Storage</h5>
+                <p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END SOLUTIONS SECTION -->
+
+    <!-- START SCREENS SECTION -->
+
+    <section class="screens" id="screenshots">
+        <div class="container">
+
+            <div class="text-center">
+                <h6 class="title">Application Screens</h6>
+                <h2 class="sub-title">Modern And User Friendly App Screens</h2>
+                <p class="details">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+            </div>
+
+            <div class="image-slideshow-container text-center owl-carousel owl-theme">
+                <div class="item">
+                    <img src="resources/img/screen-mobile-2.png" alt="m-2" style="height: 80rem; width: 30rem; margin-left: 4rem;">
+                </div>
+                <div class="item">
+                    <img src="resources/img/screen-mobile-1.png" alt="m-1" style="height: 70rem; width: 30rem; margin-top: 5rem; margin-left: 7rem;">
+                </div>
+                <div class="item">
+                    <img src="resources/img/screen-mobile-3.png" alt="m-3" style="height: 70rem; width: 30rem; margin-top: 5rem;">
+                </div>
+                <div class="item">
+                    <img src="resources/img/screen-mobile-3.png" alt="m-3" style="height: 70rem; width: 30rem; margin-top: 5rem;">
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END SCREENS SECTION -->
+
+    <!-- START DOWNLOAD SECTION -->
+
+    <section class="download-links" id="download-links">
+        <div class="container flex">
+
+            <h6 class="title">App Download</h6>
+            <h2 class="sub-title">Download The App With Top Features</h2>
+            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+
+            <div class="links">
+                <a href="https://play.google.com/store/apps"><img src="resources/img/icon/download-play-store-app-btn.png" alt="play-store"></a>
+                <a href="https://www.apple.com/app-store/"><img src="resources/img/icon/download-apple-app-btn.png" alt=""></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END DOWNLOAD SECTION -->
+
+    <!-- START TESTIMONIAL SECTION -->
+
+    <section class="testimonial">
+        <div class="container">
+
+            <div class="text-center">
+                <h6 class="title">Testimonial</h6>
+                <h2 class="sub-title">Our Lovely Clients Review</h2>
+                <p class="details">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+            </div>
+
+            <div class="testimonial-slideshow-container">
+                <div class="item">
+                    <div class="card text-center flex">
+                        <img src="resources/img/testimonial-person.png" alt="person" class="t-person">
+                        <img src="resources/img/icon/quote.png" alt="quote">
+                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                        <div class="star">
+                            <i class='fas fa-star' style='color: #ffb300'></i>
+                            <i class='fas fa-star' style='color: #ffb300'></i>
+                            <i class='fas fa-star' style='color: #ffb300'></i>
+                            <i class='fas fa-star' style='color: #ffb300'></i>
+                            <i class='fas fa-star' style='color: #ffb300'></i>
+                        </div>
+                        <h5>Danial Henry</h5>
+                    </div>
+                </div>  
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- END TESTIMONIAL SECTION -->
+
+    <!-- START SUBSCRIPTION SECTION -->
+
+    <section class="subscription" id="contact">
+        <div class="container flex">
+
+            <div class="subs-text">
+                <h2 class="sub-title">Subscribe Our Newsletter</h2>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibih vel velit auctor aliquet. Aenean sollicitudin, lorem quis.This isaw Photoshop's version  of Lorem Ipsum.</p>
+            </div>
+
+            <div class="subs-form">
+                <form>
+                    <input type="text" name="" placeholder="Your Email....">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END SUBSCRIPTION SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+        <div class="container grid">
+
+            <div class="sec-social">
+                <img src="resources/img/logo/footer-logo.png" alt="footer-logo">
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel revelit auctor aliquet. Aenean lic eitudin, lorem quis bibendum.This is Photoshop's version  of Lorem Ipsum. Proin .</p>
+                <div class="social-icon flex">
+                    <a href="https://www.facebook.com/"><img src="resources/img/icon/footer-fb.png" alt="facebook"></a>
+                    <a href="https://twitter.com/?lang=en"><img src="resources/img/icon/footer-tw.png" alt="Twitter"></a>
+                    <a href="https://www.linkedin.com/"><img src="resources/img/icon/footer-lin.png" alt="linkedin"></a>
+                    <a href="https://www.instagram.com/?hl=en"><img src="resources/img/icon/footer-ins.png" alt="instagram"></a>
+                </div>
+            </div>
+
+            <div class="sec-company">
+                <div class="flex">
+                <h5>Company</h5>
+                <a href="#"><i class='fas fa-angle-right'></i>Advertise</a>
+                <a href="#"><i class='fas fa-angle-right'></i>Support</a>
+                <a href="#"><i class='fas fa-angle-right'></i>Marketing</a>
+                <a href="#"><i class='fas fa-angle-right'></i>Contact</a>
+                <a href="#"><i class='fas fa-angle-right'></i>About Us</a>
+            </div>
+            </div>
+
+            <div class="sec-links">
+                <div class="flex">
+                <h5>Quick Links</h5>
+                <a href="#"><i class='fas fa-angle-right'></i>Home</a>
+                <a href="#"><i class='fas fa-angle-right'></i>Features</a>
+                <a href="#"><i class='fas fa-angle-right'></i>Pricing</a>
+                <a href="#"><i class='fas fa-angle-right'></i>Screenshot</a>
+                <a href="#"><i class='fas fa-angle-right'></i>Testimonial</a>
+            </div>
+            </div>
+
+            <div class="sec-apps-links">
+                <div class="flex">
+                <h5>Download Link</h5>
+                <a href="https://play.google.com/store/apps"><img src="resources/img/icon/footer-play-store-app-btn.png" alt="play-store"></a>
+                <a href="https://www.apple.com/app-store/"><img src="resources/img/icon/footer-apple-app-btn.png" alt="app-store"></a>
+            </div>
+            </div>
+            
+            <hr id="hr">
+
+            <div class="sec-copyright">
+                <p>Copyright <i class="fa fa-at style" style="font-size: 1.3rem;"></i>2020 Virex. All Rights Reserved.</p>
+
+            </div>
+            
+        </div>
+
+    </footer>
+
+    <!-- END FOOTER SECTION -->
+
+    <!-- JS SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="resources/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/jquery.counterup.min.js"></script>
+    <script src="resources/js/owl.carousel.min.js"></script>
+    <script src="resources/js/main.js"></script>
+    
+</body>
+</html>

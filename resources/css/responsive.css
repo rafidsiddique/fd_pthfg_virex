@@ -1,0 +1,777 @@
+/* ============================== */
+/* DESKTOP */
+/* ============================== */ 
+
+@media(max-width: 1660px){
+    .showcase-image-03 img{
+        height: auto;
+        max-width: 100%;
+        margin-top: 15rem;
+    }
+    
+    .showcase-image-02 img{
+        height: 70rem;
+        max-width: 100%;
+        margin-top: 12rem;
+        margin-left: 13rem;
+    }
+
+    .solutions-left{
+        right: 20rem;
+    }
+
+    .solutions-title{
+        margin-left: 4rem;
+    }
+
+    .solutions .update{
+        margin-left: 4rem;
+    }
+
+    .solutions .download{
+        margin-left: 4rem;
+    }
+
+    .solutions .share{
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .solutions .storage{
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+} 
+
+@media(max-width:1440px){
+    .showcase-image-03 img{
+        margin-left: 2rem;
+    }
+    
+    .showcase-image-02 img{
+        margin-left: 5rem;
+    }
+
+    .why-us-right{
+        margin-left: 5rem;
+    }
+
+    .solutions-left{
+        right: 17rem;
+    }
+
+}
+
+/* ============================== */
+/* TABLET + MOBILE */
+/* ============================== */ 
+
+@media only screen and (max-width:1279px){
+    /* LOGO AND HAMBURGER MENU */
+    
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .mobile-menu span{
+        display: block;
+        margin-right: 2rem;
+    }
+    .main-nav{
+        display: none;
+    }
+
+    .btn-navbar{
+        display: none !important;
+    }
+}
+
+/* ============================== */
+/* TABLET */
+/* ============================== */ 
+
+@media only screen and (min-width: 1024px) and (max-width:1279px){
+    /* HEADER */
+
+    header {
+        height: 145rem;
+    }
+
+    .showcase .grid{
+        grid-template-columns: auto auto;
+    }
+
+    .showcase-text{
+        grid-column: 1 / span 2;
+        margin-left: 2.5rem;
+    }
+
+    .showcase-text h1{
+        padding-right: 10rem;
+    }
+
+    .showcase-details{
+        padding-right: 32rem;
+    }
+
+    .showcase .btn-showcase{
+        margin-bottom: 6rem;
+        
+    }
+
+    .showcase-image-03 img{
+        margin-top: 0;
+        margin-left: 2.5rem;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .showcase-image-02 img{
+        margin-right: 15rem;
+        margin-top: 0;
+        margin-left: 0;
+        height: auto;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width: 1023px){
+    /* HEADER */
+
+    header {
+        height: 160rem;
+    }
+
+    .showcase .grid{
+        grid-template-columns: auto auto;
+    }
+
+    .showcase-text{
+        grid-column: 1 / span 2;
+        margin-left: 2.5rem;
+    }
+
+    .showcase-text h1{
+        padding-right: 10rem;
+    }
+
+    .showcase-details{
+        padding-right: 32rem;
+    }
+
+    .showcase .btn-showcase{
+        margin-bottom: 6rem;
+        
+    }
+
+    .showcase-image-03 img{
+        margin-top: 0;
+        /* margin-left: 2.5rem; */
+        height: 60rem;
+        max-width: 100%;
+    }
+    
+    .showcase-image-02 img{
+        /* margin-right: 15rem; */
+        margin-top: 0;
+        margin-left: 0;
+        height: 70rem;
+        max-width: 100%;
+    }
+
+
+
+}
+
+/* ============================== */
+/* MOBILE */
+/* ============================== */ 
+
+@media only screen and (max-width: 480px){
+    /* HEADER */
+
+    .grid{
+        grid-template-columns: 100%;
+    }
+
+    header{
+        height: 230rem;
+    }
+
+    .showcase .grid{
+        grid-template-columns: 100%;
+        overflow: visible;
+    }
+
+    .showcase-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .showcase-details{
+        text-align: center;
+        margin: 2rem 4rem;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 5rem;
+        margin: 0 2.5rem;
+    }
+
+    .showcase .btn-showcase{
+        margin: 2rem 10rem;
+    }
+
+    .showcase-image-03 img{
+        height: auto;
+        margin-top: 5rem;
+        margin-left: 8rem;
+        max-width: 100%;
+    }
+    
+    .showcase-image-02 img{
+        height: auto;
+        margin-top: 5rem;
+        margin-left: 6.5rem;
+        max-width: 100%;
+    }
+
+    /* STATS */
+
+    .stats .flex{
+        flex-direction: column;
+    }
+
+    .stats{
+        height: 100rem;
+        background-size: cover;
+    }
+
+    .stats .icon-left{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .stats .text-right{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .stats-project .text-right{
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .stats-client .text-right{
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    /* STEPS */
+
+    .steps .grid{
+        grid-template-columns: 100%;
+        overflow: visible;
+        
+    }
+
+    .steps h2{
+        padding: 0 3rem;
+    }
+
+    .details{
+        padding: 0 9rem;
+    }
+
+    .steps-image img{
+        height: auto;
+        max-width: 100%;
+        right: 0;
+    } 
+
+    .steps-text .flex{
+        flex-direction: column;
+    }
+
+    .steps-text .card{
+        width: 20rem;
+        height: 18rem;
+    }
+
+    .first-item p{
+        padding: 3rem 7rem;
+    }
+    
+    .second-item p{
+        padding: 3rem 7rem;
+    }
+    
+    .third-item p{
+        padding: 3rem 7rem;
+    }
+
+    /* FEATURES */
+
+    .features{
+        height: 210rem;
+    }
+    
+    .features .grid{
+        grid-template-columns: 100%;
+        margin-top: 5rem;
+    }
+
+    .features .card{
+        width: 35rem;
+        height: 25rem;
+        margin-left: 6rem;
+        
+    }
+
+    .features .features-bg {
+        padding-left: 32rem;
+        padding-top: 77.5rem;
+    }
+    
+    .features .sub-title{
+        padding: 0 2rem;
+
+    }
+
+    /* VIDEO */
+
+    .video{
+        height: 20rem;
+    }
+    
+    #myVideo{
+        height: 20rem;
+    }
+    
+    #myBtn {
+        height: 10rem;
+        width: 10rem;
+        margin-left: 20rem;
+        margin-bottom: 5rem;
+    }
+
+    /* EXPERTISE */
+
+    .expertise .grid{
+        grid-template-columns: 100%;
+    }
+
+    .expertise-left-item{
+        margin: 0 4rem;
+    }
+
+    .expertise-right-text{
+        padding-top: 2rem;
+        padding-right: 6rem;
+    }
+
+    .expertise .text-code{
+        padding-right: 0;
+    }
+
+    .expertise-video {
+        height: 30rem;
+        width: 40rem;
+    }
+    
+    #myVideo-2{
+        height: 30rem;
+        width: 100%;
+    }
+
+    #myBtn-2 {
+        margin-left: 26rem;
+    }
+
+    /* WHY US */
+
+    .why-us {
+        height: 145rem;
+    }
+    
+    .why-us .grid{
+        grid-template-columns: 100%
+    }
+
+    .why-us-right img{
+        height: auto;
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 10rem;
+        margin-left: 0;
+        padding-right: 4rem;
+    }
+
+    .why-us-left{
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+
+    /* SOLUTIONS */
+
+    .solutions .grid{
+        grid-template-columns: 100%;
+    }
+
+    .solutions .grid > *:first-child{
+        grid-column: 1 / span 1;
+    }
+
+    .solutions .grid > *:nth-child(2){
+        grid-column: 1 / span 1;
+    }
+
+    .solutions-mb{
+        height: auto;
+        max-width: 100%;
+        left: 17rem;
+    }
+
+    .solutions-title{
+        margin-bottom: 2rem;
+    }
+
+    .solutions p{
+        padding-right: 4rem;
+        padding-bottom: 1rem;
+    }
+    
+    .flex img{
+        margin-bottom: 2rem;
+    }
+    
+    .solutions .share{
+        margin-bottom: 0;
+    }
+    
+    .solutions .storage{
+        margin-bottom: 0;
+    }
+
+    /* SCREENS */
+
+    
+    .screens {
+        height: 130rem;
+    }
+
+    .screens .sub-title{
+        padding: 0 2rem;
+    }
+
+    /* DOWNLOAD */
+
+    .download-links .title{
+        margin-left: 2rem;
+    }
+
+    .download-links .sub-title{
+        margin-left: 2rem;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .download-links p{
+        padding-right: 10rem;
+        margin-left: 2rem;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        
+    }
+
+    /* TESTIMONIAL */
+
+    .testimonial .card{
+        width: 45rem;
+        height: 50rem;
+        
+    }
+    
+    .item p{
+        font-size: 1.5rem;
+        padding: 2rem 10rem;
+    }
+
+    .testimonial .sub-title{
+        padding: 0 2rem;
+    }
+
+    /* SUBSCRIPTION */
+
+    .subscription{
+        height: 60rem;
+        background-size: cover;
+        margin-top: 3rem;
+    }
+    
+    .subscription .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subs-text{
+        margin-right: 0;
+        margin-left: 2rem;
+    }
+
+    .subscription p{
+        padding-right: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .subs-form{
+        margin-top: 40rem;
+        margin-left: 0;
+    }
+
+    input[type="text"]{
+        width: 22rem;
+        height: 6.5rem;
+    }
+    
+    input[type="submit"]{
+        left: -.2rem;
+        width: 12rem;
+        height: 6.5rem;
+        
+    }
+
+    /* FOOTER */
+
+    footer .container .sec-social,
+    .sec-company, .sec-links, .sec-apps-links{
+        margin-left: 2rem;
+    }
+
+    footer .grid{
+        grid-template-columns: 100%;
+    }
+
+    footer .grid > *:nth-child(5){
+        grid-column: 1 / span 1;
+    }
+    
+    footer .grid > *:nth-child(6){
+        grid-column: 1 / span 1;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+    /* HEADER */
+    .showcase-image-03 img{
+        margin-left: 5rem;
+    }
+    
+    .showcase-image-02 img{
+        margin-left: 3rem;
+    }
+
+    /* FEATURES */
+
+    .features .card{
+        margin-left: 3rem;
+        
+    }
+
+    .features .features-bg {
+        padding-left: 29rem;
+        padding-top: 77.5rem;
+    }
+
+    /* VIDEO */
+    #myBtn {
+        margin-left: 16rem;
+    }
+
+    /* EXPERTISE */
+
+    .expertise-video {
+        height: 30rem;
+        width: 32rem;
+    }
+
+    #myBtn-2 {
+        margin-left: 20rem;
+    }
+
+    /* WHY US */
+
+    .why-us {
+        height: 135rem;
+    }
+
+    .why-us h2{
+        font-size: 3rem;   
+    }
+
+    /* SOLUTIONS */
+    .solutions-left{
+        right:23rem;
+    }
+    .solutions-mb{
+        left: 23rem;
+        bottom: 6rem;
+    }
+
+     /* TESTIMONIAL */
+
+    .testimonial .card{
+        width: 40rem;
+        height: 57rem;
+    }
+    .item .t-person{
+        margin-bottom: 0;
+    }
+
+    /* SUBSCRIPTION */
+
+    .subscription{
+        margin-top: 10rem;
+    }
+
+    /* FOOTER */
+
+    footer .sec-social p{
+        width: 36rem;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    /* HEADER */
+
+    header{
+        height: 240rem;
+    }
+
+    .showcase-image-03 img{
+        margin-left: 2rem;
+    }
+    
+    .showcase-image-02 img{
+        margin-left: 0.3rem;
+    }
+
+    /* FEATURES */
+
+    .features{
+        height: 195rem;
+    }
+
+    .features .card{
+        width: 32rem;
+        height: 22rem;
+        margin-left: 2rem;
+        
+    }
+
+    .features .features-bg {
+        padding-left: 25rem;
+        padding-top: 68rem;
+    }
+
+    /* VIDEO */
+    #myBtn {
+        height: 8rem;
+        width: 8rem;
+        margin-left: 15rem;
+        margin-bottom: 6rem;
+    }
+
+    /* EXPERTISE */
+
+    .expertise-video {
+        height: 30rem;
+        width: 28rem;
+    }
+
+    #myBtn-2 {
+        height: 8rem;
+        width:  8rem;
+        margin-left: 16rem;
+    }
+
+    /* WHY US */
+
+    .why-us {
+        height: 125rem;
+    }
+
+    .why-us h2{
+        font-size: 2.8rem;
+    }
+    
+    .why-us h5{
+        font-size: 1.5rem;    
+    } 
+    
+    .why-us p{
+        font-size: 1.3rem;
+    }
+
+    .why-us-right img{
+        margin-top: 4rem;
+        margin-bottom: 0;
+    }
+
+    /* SOLUTIONS */
+    .solutions-left{
+        right: 28rem;
+    }
+
+    .solutions-mb{
+        left: 28rem;
+        bottom: 10rem;
+    }
+
+    /* SCREENS */
+
+    .screens {
+        height: 140rem;
+    }
+
+     /* TESTIMONIAL */
+
+    .testimonial .card{
+        width: 35rem;
+        height: 75rem;
+    }
+
+    /* SUBSCRIPTION */
+
+    .subscription{
+        margin-top: 35rem;
+    }
+
+    input[type="text"]{
+        width: 22rem;
+        height: 6.43rem;
+    }
+    
+    input[type="submit"]{
+        left: -.2rem;
+        width: 12rem;
+        height: 6.5rem;
+    }
+
+    /* FOOTER */
+
+    footer .sec-social p{
+        width: 30rem;
+    }
+
+}
+
+
